@@ -23,6 +23,22 @@ Connect the Arduino to the micro SD card reader according to the diagram below, 
 
 ![The device](images/schematic.png)
 
+### Software
+
+#### Building and flashing the device firmware
+The following instructions detail how to build the firmware using the command line `arduino-cli` tool. However, the process should be similar when using the Arduino IDE.
+
+1. The following Arduino libraries are required to build the device firmware: ArduinoBLE, WifiNINA, SPI and SD. The firmware also requires a modified version of the Arduino_LSM6DS3 library, which allows for a greater configurable sample rate than the stock 104Hz. The library is available in `tracker/lib/Arduino_LSM6DS3`. Libraries can be installed with the following command: `arduino-cli lib install ArduinoBLE WifiNINA SD`. The modified LSM6DS3 needs to be placed in the correct library directory.
+2. Install the core for the Arduino Nano 33 IoT: `arduino-cli core install arduino:samd`
+3. Clone the repository and, in the `tracker` directory, run: `arduino-cli compile`
+4. To flash the firmware, ensure that the default port in `sketch.yaml` matches the port of the connected Arduino. This may have to be changed depending on the machine. When correct, run `arduino-cli upload`.
+5. To verify the device is working correctly, ensure a FAT32 formatted micro SD card is inserted and power up the device. Open the companion app and connect to the device. If the app successfully connects, then the device is working correctly.
+
+#### Building and installing the companion app
+1. Clone the repository and open `companion` in Android Studio.
+2. Android Studio will automatically resolve and download any dependencies. Build the app from Android Studio.
+3. Connect an Android device on API 34 (Android 14) or later. If the device shows up in Android Studio, install the app.
+
 ## Licence
 
 ```

@@ -2,14 +2,14 @@
 
 This project consists of code for the firmware of a low-cost wearable movement device and the associated Android app used to configure it. This project was created for a final year Computer Science dissertation project. The write-up for this project is available upon request.
 
-## Motivation
-The motivation for this project was to create a low-cost wearable movement data (accelerometer and gyroscope data) for use in movement disorder research. This project consists of a cost-effective wearable device for collecting movement data, where the important considerations include device cost and the accuracy of the data, such that it can be used as input for a machine learning model. The device is configured wirelessly using an Android companion application. Here, the user is able to configure device settings such as sample rate, tracking time, and type of data collected. Additionally, the app provides the ability to inspect data collected by the device and annotate the data with predicted activities. By demonstrating that data collected from the device can be used with a basic activity prediction model, this shows that the device can be applied to further research into its efficacy in movement disorder research.
-
 ## Images
 
 ![Configuring the device](images/screenshot-1.png)
 ![Making predictions](images/screenshot-2.png)
 ![The device](images/photo.png)
+
+## Motivation
+The motivation for this project was to create a low-cost wearable movement data (accelerometer and gyroscope data) for use in movement disorder research. This project consists of a cost-effective wearable device for collecting movement data, where the important considerations include device cost and the accuracy of the data, such that it can be used as input for a machine learning model. The device is configured wirelessly using an Android companion application. Here, the user is able to configure device settings such as sample rate, tracking time, and type of data collected. Additionally, the app provides the ability to inspect data collected by the device and annotate the data with predicted activities. By demonstrating that data collected from the device can be used with a basic activity prediction model, this shows that the device can be applied to further research into its efficacy in movement disorder research.
 
 ## Setup
 

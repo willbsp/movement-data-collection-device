@@ -9,6 +9,7 @@ The motivation for this project was to create a low-cost wearable movement data 
 
 ![Configuring the device](images/screenshot-1.png)
 ![Making predictions](images/screenshot-2.png)
+![The device](images/photo.png)
 
 ## Licence
 

@@ -11,7 +11,7 @@ The motivation for this project was to create a low-cost wearable movement data 
 ![Making predictions](images/screenshot-2.png)
 ![The device](images/photo.png)
 
-## Building the device
+## Setup
 
 ### Hardware
 - Arduino Nano 33 IoT

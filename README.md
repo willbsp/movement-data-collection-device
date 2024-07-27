@@ -11,6 +11,18 @@ The motivation for this project was to create a low-cost wearable movement data 
 ![Making predictions](images/screenshot-2.png)
 ![The device](images/photo.png)
 
+## Building the device
+
+### Hardware
+- Arduino Nano 33 IoT
+- SPI micro SD card reader
+- Wire (28 AWG is used in the image above) or jumper cables (if headers are soldered to the device)
+- Soldering iron (if soldering directly to the Arduino)
+
+Connect the Arduino to the micro SD card reader according to the diagram below, the CS (chip select pin) can be customised in the firmware.
+
+![The device](images/schematic.png)
+
 ## Licence
 
 ```

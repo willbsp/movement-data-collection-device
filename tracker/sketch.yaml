@@ -1,0 +1,2 @@
+default_fqbn: arduino:samd:nano_33_iot
+default_port: /dev/ttyACM0

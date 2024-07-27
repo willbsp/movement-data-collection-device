@@ -1,0 +1,12 @@
+package com.willbsp.companion.common
+
+import java.util.UUID
+
+// UUIDs to match the service / characteristic UUIDs defined on the wearable device
+// used to robustly identify BLE components
+val BLE_UUID_CONFIGURATION_SERVICE: UUID = UUID.fromString("B521C54C-3468-409D-AA2C-643E3D04EE10")
+val BLE_UUID_TRACKING: UUID = UUID.fromString("39F8907B-F89C-4AAF-AD5D-B4E6B68C5594")
+val BLE_UUID_HIGH_SAMPLE_RATE: UUID = UUID.fromString("B9ECC76A-B4BC-4E81-B2E1-1899A574D620")
+val BLE_UUID_DATA_TO_RECORD: UUID = UUID.fromString("DF705F32-0774-4CBF-B9CB-5AD7B792926A")
+val BLE_UUID_DATA_FILE_NAME: UUID = UUID.fromString("B4BB6F59-0C2C-4074-AF0C-BADFA440BC2F")
+val BLE_UUID_READ_MILLIS: UUID = UUID.fromString("4DEC5AB8-78B5-46F6-A3B0-2303D56FAC60")
